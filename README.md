@@ -26,7 +26,7 @@ The goal is integrating real-time chat functionality into the existing Doodle or
 
 
 ## Components Diagram
-
+<pre>
   +---------------------+            +-------------------+
   | Organizer Frontend  |            |Participant Frontend|
   +----------+----------+            +----------+---------+
@@ -48,8 +48,8 @@ The goal is integrating real-time chat functionality into the existing Doodle or
       +--------v----------+        +--------v---------+
       |   SQL Database    |        | NoSQL Database   |
       +-------------------+        +------------------+
-
-#### Risk Assessment
+</pre>
+## Risk Assessment
   1. *Scalability*: Supporting a large number of users and meetings requires a robust Chat Service infrastructure with proper load balancing and message delivery mechanisms.
 
   2. *Latency*: Maintaining low latency message delivery for real-time chat is crucial and may require optimizations on the server-side and client-side.
@@ -58,7 +58,7 @@ The goal is integrating real-time chat functionality into the existing Doodle or
 
   3. *Security*: User authentication and message authorization need to be implemented to prevent unauthorized access and message manipulation.
 
-#### Mitigation
+## Mitigation
  1. *Scalability*: Use scalable infrastructure like Kubernetes for deploying services and a NoSQL database that scales horizontally.
 
   2. *Latency*: Maintaining low latency message delivery for real-time chat is crucial and may require optimizations on the server-side and client-side.
@@ -68,7 +68,7 @@ The goal is integrating real-time chat functionality into the existing Doodle or
 
   3. *Security*:  Implement JWT based authentication for users and proper authorization checks for message access within specific meeting chat rooms. Implement end-to-end encryption for messages and use HTTPS for all communications.
 
-### Real-time chat functionnality
+## Real-time chat functionnality
 
 1. Direct messaging
 2. Message history and search
@@ -77,7 +77,7 @@ The goal is integrating real-time chat functionality into the existing Doodle or
 5. Emoji, Stickers and reactions
 6. Settings message(Edit, delete)
 
-### Available Scripts
+## Available Scripts
 
 In the project directory, you can run:
 
