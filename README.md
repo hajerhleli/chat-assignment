@@ -25,7 +25,7 @@ The goal is integrating real-time chat functionality into the existing Doodle or
   - *API Gateway*: Route requests to appropriate services (existing meeting service or new chat service).
 
 
-## Components Diagram:
+## Components Diagram
 
   +---------------------+            +-------------------+
   | Organizer Frontend  |            |Participant Frontend|
@@ -67,6 +67,15 @@ The goal is integrating real-time chat functionality into the existing Doodle or
 
 
   3. *Security*:  Implement JWT based authentication for users and proper authorization checks for message access within specific meeting chat rooms. Implement end-to-end encryption for messages and use HTTPS for all communications.
+
+### Real-time chat functionnality
+
+1. Direct messaging
+2. Message history and search
+3. File and media sharing
+4. Push Notifications
+5. Emoji, Stickers and reactions
+6. Settings message(Edit, delete)
 
 ### Available Scripts
 
